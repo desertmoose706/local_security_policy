@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Paul S. Cannon, Adam Yohrling, Corey Osman, Ryan Russell-Yates, Jordan Wesolowski, Gerben Welter, Thomas Linkin",
   "summary": "Windows Local Security Policy management. Forked from ayohrling/local_security_policy",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "source": "https://github.com/desertmoose706/local_security_policy",
   "project_page": "https://github.com/desertmoose706/local_security_policy",
   "issues_url": "https://github.com/desertmoose706/local_security_policy/issues",
