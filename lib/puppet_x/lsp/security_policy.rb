@@ -74,7 +74,9 @@ class SecurityPolicy
             sids = Array.new
             policy_value.split(",").sort.each do |suser|
                 suser.strip!
-                sids << user_to_sid(suser)
+                # secedit doesn't use SID of local accounts
+                #sids << user_to_sid(suser)
+                sids << suser
             end
             pv = sids.sort.join(",")
         end
